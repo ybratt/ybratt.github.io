@@ -1,0 +1,107 @@
+/* This is a CSS comment */
+body {
+	/* background-color: #19f9f9; */
+	background-image: url(../images/back2.jpg);
+	background-size:cover;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+.main{
+	width: 600px;
+	background: white;
+	margin: 0 auto;
+	padding: 40px;
+	background: rgba(255, 255, 255, 0.7); 
+	
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+	display: block;
+	margin: 0;
+	font-family:"PT Sans", sans-serif;
+	}
+
+h2{
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: normal;
+	font-style: italic;
+	text-transform: uppercase;
+}
+img{
+	border: 10px dotted black;
+	border-radius: 60px;
+	width: 500px;
+	margin: 0 auto;
+	display: block;
+}
+.important{
+	font-weight: bold;
+}
+.news{
+	color: red;
+}
+.super{
+	text-decoration: underline;
+}
+.plain{
+	border:none	;
+border-radius:0;
+}
+
+.bullet{
+	/* how to do a bullet list */
+}
+p,
+ul,
+ol {
+	line-height: 1.4;
+	padding-left: 0;
+	/* list-style: none; to remove bullets */
+}
+h3{
+	color: #0000ff;
+	margin-bottom:0;
+	cursor:pointer;
+
+}
+h3:hover{
+	text-decoration: underline;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+a:hover, 
+a:focus{
+	text-decoration:underline;
+	color: #ffffff;
+}
+h3:after{
+	content:'+';
+}
+.open:after{
+	content:'-';
+}
+.column{
+	width:33.3%;
+	float:left;
+	padding:10px;
+	background: white;
+	box-sizing: border-box;
+	border-left:1px solid black;
+	font-family: 'Indie Flower', cursive;
+}
+h4{
+	color:red;
+}
+h5{
+	font-weight: bold;
+}
+ul li {display:inline-block;
+	float:left;
+	padding-left: 20px;
+
+}
